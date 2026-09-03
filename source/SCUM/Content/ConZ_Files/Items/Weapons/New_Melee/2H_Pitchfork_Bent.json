@@ -1,0 +1,3260 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (cd08f55)",
+  "NameMap": [
+    "/Game/ConZ_Files/Data/HandsCorrections/DA_HandsCorrections_Grip_2H_Pitchfork",
+    "/Game/ConZ_Files/Data/ItemFirstPersonAnimations/DA_Generic_2H1_Melee_rework",
+    "/Game/ConZ_Files/Data/TakeInHands/BP_TakeInHandsMelee2H",
+    "/Game/ConZ_Files/Data/Weapon/DA_Impact_Melee_Metal_Medium",
+    "/Game/ConZ_Files/Data/WeaponDesc_Table",
+    "/Game/ConZ_Files/Items/Tags/Crafting/ItemOpenerTag",
+    "/Game/ConZ_Files/Items/Tags/Detecting/Detectable_Tag",
+    "/Game/ConZ_Files/Items/Tags/Melee/Blade",
+    "/Game/ConZ_Files/Items/Tags/Repair/SharpMeleeWeaponRepairable",
+    "/Game/ConZ_Files/Items/Tags/Weapons/SharpMeleeWeapon",
+    "/Game/ConZ_Files/Items/Weapons/AttachmentSockets/BP_MountTypeWeaponHolsterMelee",
+    "/Game/ConZ_Files/Items/Weapons/New_Melee/2H_Pitchfork_Bent",
+    "/Game/ConZ_Files/Models/Objects/Items/Pitchfork_bent/SM_Pitchfork_bent",
+    "/Game/ConZ_Files/Physical_Materials/Wood_01",
+    "/Game/ConZ_Files/Skills/MeleeAnimationPresets/Weapons_2H_Swords",
+    "/Game/WwiseAudio/Event/DefaultWorkUnit/Player/Inventory_Handling_Knife",
+    "/Game/WwiseAudio/Event/DefaultWorkUnit/Player_Foley/Item_Metal_Broken",
+    "/Script/AkAudio",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/GameplayTags",
+    "/Script/PhysicsCore",
+    "/Script/SCUM",
+    "2H_Pitchfork_Bent",
+    "2H_Pitchfork_Bent_C",
+    "_attachmentSocketsOffset",
+    "_damageOverTime",
+    "_destroyedSound",
+    "_holsterAttachmentSocketMountType",
+    "_inventoryHandlingSound",
+    "_itemLocation",
+    "_itemSpawnTypes",
+    "_itemTags",
+    "_noiseLevel",
+    "_ownedItemTags",
+    "_placementCollisionUpOffset",
+    "_rarity",
+    "_rootComponent",
+    "_spawnLocationOffset",
+    "_spawnRotationOffset",
+    "_weaponDescRef",
+    "AkAudioEvent",
+    "AllNodes",
+    "ArrayProperty",
+    "AssetUserData",
+    "AttachParent",
+    "bIsParentComponentNative",
+    "BlueprintGeneratedClass",
+    "Blunt",
+    "SharpMeleeWeapon",
+    "BluntMeleeWeaponItemTag",
+    "SharpMeleeWeaponRepairable",
+    "BodyInstance",
+    "BoneName",
+    "BoolProperty",
+    "Bounciness",
+    "BP_MountTypeWeaponHolsterMelee_C",
+    "BP_TakeInHandsMelee2H_C",
+    "CachedMaxDrawDistance",
+    "CapsuleHalfHeight",
+    "CapsuleRadius",
+    "Class",
+    "CombatAnimationPlayRateModifier",
+    "ComponentClass",
+    "ComponentTemplate",
+    "CraftingItemTag",
+    "DA_Generic_2H1_Melee_rework",
+    "DA_HandsCorrections_Grip_2H_Pitchfork",
+    "DA_Impact_Melee_Metal_Medium",
+    "Damage",
+    "DamageOnUse",
+    "DamageOnUseTag",
+    "DataTable",
+    "DataTableRowHandle",
+    "Default__2H_Pitchfork_Bent_C",
+    "Default__BlueprintGeneratedClass",
+    "Default__BP_MountTypeWeaponHolsterMelee_C",
+    "Default__BP_TakeInHandsMelee2H_C",
+    "Default__DamageOnUseTag",
+    "Default__MeleeAttackCollisionCapsule",
+    "Default__MeleeWeaponItemTag",
+    "Default__SceneComponent",
+    "Default__SCS_Node",
+    "Default__SimpleConstructionScript",
+    "Default__ThrowableItemTag",
+    "Default__WeaponItem",
+    "DefaultSceneRoot",
+    "DefaultSceneRoot_GEN_VARIABLE",
+    "DefaultSceneRootNode",
+    "Detectable_Tag",
+    "DetectableTag",
+    "EItemRarity",
+    "EItemRarity::Uncommon",
+    "EItemThrowingBehavior",
+    "EItemThrowingBehavior::Piercing",
+    "Engine",
+    "ENoiseLevel",
+    "ENoiseLevel::Loud",
+    "EnumProperty",
+    "EPrisonerGroundStance",
+    "EPrisonerGroundStance::Standing",
+    "ESpawnActorCollisionHandlingMethod",
+    "ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn",
+    "FirstPersonAnimationsData",
+    "FloatProperty",
+    "GameplayTag",
+    "GameplayTagContainer",
+    "GasStation",
+    "Guid",
+    "HandsCorrectionsData",
+    "HandsCorrectionssData",
+    "Holster",
+    "ImpactEffects",
+    "Industrial",
+    "InitialRotation",
+    "InternalVariableName",
+    "Inventory_Handling_Knife",
+    "IsCarriedWithTwoHands",
+    "Item_Metal_Broken",
+    "ItemFirstPersonAnimationsDataAsset",
+    "ItemLocation",
+    "ItemMesh0",
+    "ItemOpenerTag",
+    "ItemRootComponent",
+    "ItemSpawnType.Items.Equipment.Stable",
+    "ItemThrowingBehavior",
+    "LDMaxDrawDistance",
+    "Location",
+    "MapProperty",
+    "Market",
+    "MaxRandomImpactRotation",
+    "MaxRange",
+    "MeleeAttackCollisionCapsule",
+    "MeleeAttackCollisionCapsule1",
+    "MeleeAttackCollisionCapsule1_GEN_VARIABLE",
+    "MeleeAttackCollisionCapsule_GEN_VARIABLE",
+    "MeleeSkillAnimationsPreset",
+    "MeleeWeaponDesc",
+    "MeleeWeaponItemTag",
+    "Mesh",
+    "MinStance",
+    "MovementSpeedMultiplierOverride",
+    "MulticastInlineDelegateProperty",
+    "MulticastSparseDelegateProperty",
+    "NameProperty",
+    "None",
+    "Object",
+    "ObjectProperty",
+    "OnComponentBeginOverlap",
+    "OnOverlap",
+    "OnProjectileStop",
+    "OnProjectileStopped",
+    "Package",
+    "ParentComponentOrVariableName",
+    "PhysicalMaterial",
+    "PhysMaterialOverride",
+    "Police",
+    "ProjectileImpactEffects",
+    "RelativeLocation",
+    "RelativeRotation",
+    "RelativeScale3D",
+    "RepairableItemTag",
+    "RootComponent",
+    "RootNodes",
+    "Rotation",
+    "Rotator",
+    "RowName",
+    "SceneComponent",
+    "ScriptStruct",
+    "SCS_Node",
+    "SharpnessPierce",
+    "SharpnessSlash",
+    "ShouldOverrideMovementSpeedMultiplier",
+    "SimpleConstructionScript",
+    "SM_Pitchfork_bent",
+    "SpawnCollisionHandlingMethod",
+    "Sport",
+    "StaticMesh",
+    "StaticMeshComponent",
+    "StrengthBelowWhichCombatPerformanceBeginsToDrop",
+    "StructProperty",
+    "TempSceneComponent",
+    "ThrowableItemTag",
+    "ThrowingComponent",
+    "UInt32Property",
+    "UpdatedRotation",
+    "VariableGuid",
+    "Vector",
+    "WeaponDesc",
+    "WeaponDesc_Table",
+    "WeaponItem",
+    "Weapons_2H_Swords",
+    "Wood_01",
+    "/Game/ConZ_Files/Data/HandsCorrections/DA_HandsCorrections_Grip_2H_Katana_01",
+    "DA_HandsCorrections_Grip_2H_Katana_01",
+    "/Game/ConZ_Files/Skills/MeleeAnimationPresets/Weapons_2H_Swords",
+    "Weapons_2H_Swords",
+    "SharpMeleeWeaponItemTag",
+    "2H_Katana",
+    "ImpactSoundCategory",
+    "ECharacterImpactSourceSoundCategory",
+    "ECharacterImpactSourceSoundCategory::Sharp_Metal",
+    "FVector"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "UNKNOWN",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 47,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 43,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 0,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 68,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": null,
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
+      "FuncMap": [],
+      "ClassFlags": "CLASS_Config, CLASS_Parsed, CLASS_ReplicationDataIsSetUp, CLASS_CompiledFromBlueprint, CLASS_HasInstancedReference",
+      "ClassWithin": -9,
+      "ClassConfigName": "Engine",
+      "Interfaces": [],
+      "ClassGeneratedBy": 0,
+      "bDeprecatedForceScriptOrder": false,
+      "bCooked": true,
+      "ClassDefaultObject": 2,
+      "SuperStruct": -21,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -17,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_InstancedReference, CPF_NonTransactional",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "MeleeAttackCollisionCapsule1",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -17,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_InstancedReference, CPF_NonTransactional",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "MeleeAttackCollisionCapsule",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [],
+      "ScriptBytecodeSize": 0,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "SimpleConstructionScript",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 13
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "2H_Pitchfork_Bent_C",
+      "OuterIndex": 0,
+      "ClassIndex": -10,
+      "SuperIndex": -21,
+      "TemplateIndex": -5,
+      "ObjectFlags": "RF_Public, RF_Transactional",
+      "SerialSize": 211,
+      "SerialOffset": 10587,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": true,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        -21,
+        -64,
+        -16,
+        -29,
+        -14,
+        -61,
+        -20,
+        -63,
+        13,
+        -62,
+        -32,
+        -23,
+        -8
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -17
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -10,
+        -5
+      ],
+      "CreateBeforeCreateDependencies": [
+        -21
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.UInt32PropertyData, UAssetAPI",
+          "Name": "MaxRange",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 2
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "Mesh",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 14
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ThrowingComponent",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 16
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "ItemLocation",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "_itemLocation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+              "Name": "Industrial",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": false
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+              "Name": "Police",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": false
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+              "Name": "Sport",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": false
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+              "Name": "Market",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": false
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+              "Name": "GasStation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": false
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "EItemRarity",
+          "InnerType": null,
+          "Name": "_rarity",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "EItemRarity::Uncommon"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "GameplayTagContainer",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "_itemSpawnTypes",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+              "Name": "_itemSpawnTypes",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                "ItemSpawnType.Items.Equipment.Stable"
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Vector",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "_spawnLocationOffset",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+              "Name": "_spawnLocationOffset",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+                "X": -0.6045569777488708,
+                "Y": -21.721172332763672,
+                "Z": 2.08660888671875
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Rotator",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "_spawnRotationOffset",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+              "Name": "_spawnRotationOffset",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+                "Pitch": 75.2153091430664,
+                "Yaw": -0.08413700014352798,
+                "Roll": -89.91900634765625
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 10.0,
+          "Name": "_placementCollisionUpOffset",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "_itemTags",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -28
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -55
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "2",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -25
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "3",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -6
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "4",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -22
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "_ownedItemTags",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 15
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 8
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "2",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 4
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "ENoiseLevel",
+          "InnerType": null,
+          "Name": "_noiseLevel",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "ENoiseLevel::Loud"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "_inventoryHandlingSound",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -1
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "_destroyedSound",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -2
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 0.800000011920929,
+          "Name": "_damageOverTime",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "_holsterAttachmentSocketMountType",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -4
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+          "Value": [
+            [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "_attachmentSocketsOffset",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "Generic",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "_attachmentSocketsOffset",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTypeName": null,
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "BoneName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Holster"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "Vector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Location",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+                        "Name": "Location",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTypeName": null,
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+                          "X": "+0",
+                          "Y": "+0",
+                          "Z": "+0"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "Rotator",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Rotation",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTypeName": null,
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+                        "Name": "Rotation",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTypeName": null,
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+                          "Pitch": "+0",
+                          "Yaw": "+0",
+                          "Roll": "+0"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "KeysToRemove": [],
+          "Name": "_attachmentSocketsOffset",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "_rootComponent",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 5
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "ESpawnActorCollisionHandlingMethod",
+          "InnerType": null,
+          "Name": "SpawnCollisionHandlingMethod",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "RootComponent",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 5
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "Default__2H_Pitchfork_Bent_C",
+      "OuterIndex": 0,
+      "ClassIndex": 1,
+      "SuperIndex": 0,
+      "TemplateIndex": -64,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ClassDefaultObject, RF_ArchetypeObject",
+      "SerialSize": 1113,
+      "SerialOffset": 10798,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        10,
+        7,
+        11,
+        6
+      ],
+      "CreateBeforeSerializationDependencies": [
+        14,
+        16,
+        -28,
+        -55,
+        -25,
+        -6,
+        -22,
+        15,
+        8,
+        4,
+        -1,
+        -2,
+        -4,
+        5,
+        -57
+      ],
+      "SerializationBeforeCreateDependencies": [
+        1,
+        -64,
+        -29,
+        -61,
+        -63
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "MeleeSkillAnimationsPreset",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -31
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "HandsCorrectionssData",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -26
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "FirstPersonAnimationsData",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -27
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "ShouldOverrideMovementSpeedMultiplier",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 1.2000000476837158,
+          "Name": "MovementSpeedMultiplierOverride",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "IsCarriedWithTwoHands",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "BP_TakeInHandsMelee2H_C_0",
+      "OuterIndex": 14,
+      "ClassIndex": -3,
+      "SuperIndex": 0,
+      "TemplateIndex": -8,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 180,
+      "SerialOffset": 11911,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        14
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -31,
+        -26,
+        -27
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -3,
+        -8
+      ],
+      "CreateBeforeCreateDependencies": [
+        14
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 0.20000000298023224,
+          "Name": "DamageOnUse",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "DamageOnUseTag_0",
+      "OuterIndex": 2,
+      "ClassIndex": -15,
+      "SuperIndex": 0,
+      "TemplateIndex": -23,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 41,
+      "SerialOffset": 12091,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        2
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -15,
+        -23
+      ],
+      "CreateBeforeCreateDependencies": [
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "TempSceneComponent",
+      "OuterIndex": 2,
+      "ClassIndex": -16,
+      "SuperIndex": 0,
+      "TemplateIndex": -29,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
+      "SerialSize": 12,
+      "SerialOffset": 12132,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        2
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -64
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -16,
+        -29
+      ],
+      "CreateBeforeCreateDependencies": [
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "DataTableRowHandle",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "_weaponDescRef",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "DataTable",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -24
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+              "Name": "RowName",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "2H_Katana"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 17.95406150817871,
+          "Name": "CapsuleHalfHeight",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 2.603053092956543,
+          "Name": "CapsuleRadius",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.MulticastSparseDelegatePropertyData, UAssetAPI",
+          "Name": "OnComponentBeginOverlap",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.FDelegate, UAssetAPI",
+              "Object": 6,
+              "Delegate": "OnOverlap"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Vector",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "RelativeLocation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+              "Name": "RelativeLocation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+                "X": 0.07738468050956726,
+                "Y": 0.45214951038360596,
+                "Z": -27.256572723388672
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Rotator",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "RelativeRotation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+              "Name": "RelativeRotation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+                "Pitch": 0.3634001910686493,
+                "Yaw": 89.99998474121094,
+                "Roll": 180.5665283203125
+              }
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "MeleeAttackCollisionCapsule1_GEN_VARIABLE",
+      "OuterIndex": 1,
+      "ClassIndex": -17,
+      "SuperIndex": 0,
+      "TemplateIndex": -30,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 352,
+      "SerialOffset": 12144,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        1
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -24,
+        6
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -17,
+        -30
+      ],
+      "CreateBeforeCreateDependencies": [
+        1
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "DataTableRowHandle",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "_weaponDescRef",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "DataTable",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -24
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+              "Name": "RowName",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "2H_Katana"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 42.04141616821289,
+          "Name": "CapsuleHalfHeight",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 2.7007009983062744,
+          "Name": "CapsuleRadius",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "BodyInstance",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "BodyInstance",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "PhysMaterialOverride",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -53
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.MulticastSparseDelegatePropertyData, UAssetAPI",
+          "Name": "OnComponentBeginOverlap",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.FDelegate, UAssetAPI",
+              "Object": 7,
+              "Delegate": "OnOverlap"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Vector",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "RelativeLocation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+              "Name": "RelativeLocation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+                "X": 2.7260379791259766,
+                "Y": 0.11484475433826447,
+                "Z": 28.464941024780273
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Rotator",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "RelativeRotation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+              "Name": "RelativeRotation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+                "Pitch": 82.24177551269531,
+                "Yaw": -0.0005661601899191737,
+                "Roll": 89.99970245361328
+              }
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "MeleeAttackCollisionCapsule_GEN_VARIABLE",
+      "OuterIndex": 1,
+      "ClassIndex": -17,
+      "SuperIndex": 0,
+      "TemplateIndex": -30,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 438,
+      "SerialOffset": 12496,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        1
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -24,
+        -53,
+        7
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -17,
+        -30
+      ],
+      "CreateBeforeCreateDependencies": [
+        1
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 1.059999942779541,
+          "Name": "CombatAnimationPlayRateModifier",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 1.0,
+          "Name": "StrengthBelowWhichCombatPerformanceBeginsToDrop",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "MeleeWeaponItemTag_0",
+      "OuterIndex": 2,
+      "ClassIndex": -18,
+      "SuperIndex": 0,
+      "TemplateIndex": -32,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 70,
+      "SerialOffset": 12934,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        2
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -18,
+        -32
+      ],
+      "CreateBeforeCreateDependencies": [
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": 1,
+      "ClassIndex": -11,
+      "SuperIndex": 0,
+      "TemplateIndex": -56,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 12,
+      "SerialOffset": 13004,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        1
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -11,
+        -56
+      ],
+      "CreateBeforeCreateDependencies": [
+        1
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -17
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentTemplate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 7
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "ParentComponentOrVariableName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "ItemMesh0"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bIsParentComponentNative",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Guid",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "VariableGuid",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.GuidPropertyData, UAssetAPI",
+              "Name": "VariableGuid",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "{36484C7C-49D2-DC38-D6E3-A1A2589AA8BA}"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "InternalVariableName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "MeleeAttackCollisionCapsule"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SCS_Node_0",
+      "OuterIndex": 13,
+      "ClassIndex": -12,
+      "SuperIndex": 0,
+      "TemplateIndex": -58,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 227,
+      "SerialOffset": 13016,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        7,
+        -17
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -12,
+        -58
+      ],
+      "CreateBeforeCreateDependencies": [
+        13
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -17
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentTemplate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 6
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "ParentComponentOrVariableName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "ItemMesh0"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bIsParentComponentNative",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Guid",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "VariableGuid",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.GuidPropertyData, UAssetAPI",
+              "Name": "VariableGuid",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "{103A7DCA-4002-E6CD-D755-5C8A359FD2DA}"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "InternalVariableName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "MeleeAttackCollisionCapsule1"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SCS_Node_1",
+      "OuterIndex": 13,
+      "ClassIndex": -12,
+      "SuperIndex": 0,
+      "TemplateIndex": -58,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 227,
+      "SerialOffset": 13243,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        6,
+        -17
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -12,
+        -58
+      ],
+      "CreateBeforeCreateDependencies": [
+        13
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -11
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentTemplate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 9
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Guid",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "VariableGuid",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.GuidPropertyData, UAssetAPI",
+              "Name": "VariableGuid",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "{0CB123E9-4BC1-4333-6AEC-858C4FC17F80}"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "InternalVariableName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "DefaultSceneRoot"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SCS_Node_2",
+      "OuterIndex": 13,
+      "ClassIndex": -12,
+      "SuperIndex": 0,
+      "TemplateIndex": -58,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 168,
+      "SerialOffset": 13470,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        9,
+        -11
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -12,
+        -58
+      ],
+      "CreateBeforeCreateDependencies": [
+        13
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "RootNodes",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 10
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 11
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "AllNodes",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 10
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 11
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "DefaultSceneRootNode",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 12
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SimpleConstructionScript_2",
+      "OuterIndex": 1,
+      "ClassIndex": -13,
+      "SuperIndex": 0,
+      "TemplateIndex": -59,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 131,
+      "SerialOffset": 13638,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        10,
+        11,
+        12
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -13,
+        -59
+      ],
+      "CreateBeforeCreateDependencies": [
+        1
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "StaticMesh",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -60
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": "+0",
+          "Name": "LDMaxDrawDistance",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 5000.0,
+          "Name": "CachedMaxDrawDistance",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "AttachParent",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 5
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Vector",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "RelativeScale3D",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+              "Name": "RelativeScale3D",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+                "X": 0.9599999785423279,
+                "Y": 0.9599999785423279,
+                "Z": 0.9599999785423279
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "AssetUserData",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 3
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Vector",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "RelativeLocation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+              "Name": "RelativeLocation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+                "X": "+0",
+                "Y": "+0",
+                "Z": -15.0
+              }
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ItemMesh0",
+      "OuterIndex": 2,
+      "ClassIndex": -14,
+      "SuperIndex": 0,
+      "TemplateIndex": -61,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
+      "SerialSize": 295,
+      "SerialOffset": 13769,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        2
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -60,
+        5,
+        3,
+        -64
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -14,
+        -61
+      ],
+      "CreateBeforeCreateDependencies": [
+        2
+      ],
+      "Extras": "AAAAAA=="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "MeleeWeaponDesc",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "WeaponDesc",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+              "Value": 80.0,
+              "Name": "Damage",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+              "Value": 1.0,
+              "Name": "SharpnessSlash",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+              "Value": 1.0,
+              "Name": "SharpnessPierce",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "ImpactEffects",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -54
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+              "EnumType": "ECharacterImpactSourceSoundCategory",
+              "InnerType": null,
+              "Name": "ImpactSoundCategory",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "ECharacterImpactSourceSoundCategory::Sharp_Metal"
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ThrowableItemTag_0",
+      "OuterIndex": 2,
+      "ClassIndex": -19,
+      "SuperIndex": 0,
+      "TemplateIndex": -62,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 226,
+      "SerialOffset": 14064,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        2
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -54
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -19,
+        -62
+      ],
+      "CreateBeforeCreateDependencies": [
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "EItemThrowingBehavior",
+          "InnerType": null,
+          "Name": "ItemThrowingBehavior",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "EItemThrowingBehavior::Piercing"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Rotator",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "InitialRotation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+              "Name": "InitialRotation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+                "Pitch": -90.0,
+                "Yaw": "+0",
+                "Roll": "+0"
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Rotator",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "UpdatedRotation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+              "Name": "UpdatedRotation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+                "Pitch": -20.0,
+                "Yaw": 360.0,
+                "Roll": "+0"
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Rotator",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "MaxRandomImpactRotation",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+              "Name": "MaxRandomImpactRotation",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTypeName": null,
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+                "Pitch": -30.0,
+                "Yaw": "+0",
+                "Roll": "+0"
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "EPrisonerGroundStance",
+          "InnerType": null,
+          "Name": "MinStance",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "EPrisonerGroundStance::Standing"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 0.029999999329447746,
+          "Name": "Bounciness",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.MulticastInlineDelegatePropertyData, UAssetAPI",
+          "Name": "OnProjectileStop",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.FDelegate, UAssetAPI",
+              "Object": 16,
+              "Delegate": "OnProjectileStopped"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.FDelegate, UAssetAPI",
+              "Object": 2,
+              "Delegate": "OnProjectileStop"
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ThrowingComponent",
+      "OuterIndex": 2,
+      "ClassIndex": -20,
+      "SuperIndex": 0,
+      "TemplateIndex": -63,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
+      "SerialSize": 359,
+      "SerialOffset": 14290,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        2
+      ],
+      "CreateBeforeSerializationDependencies": [
+        16,
+        -64
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -20,
+        -63
+      ],
+      "CreateBeforeCreateDependencies": [
+        2
+      ],
+      "Extras": ""
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -7,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Inventory_Handling_Knife",
+      "OuterIndex": -47,
+      "ClassPackage": "/Script/AkAudio",
+      "ClassName": "AkAudioEvent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Item_Metal_Broken",
+      "OuterIndex": -48,
+      "ClassPackage": "/Script/AkAudio",
+      "ClassName": "AkAudioEvent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_TakeInHandsMelee2H_C",
+      "OuterIndex": -35,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_MountTypeWeaponHolsterMelee_C",
+      "OuterIndex": -43,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BlueprintGeneratedClass",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SharpMeleeWeapon",
+      "OuterIndex": -42,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "SharpMeleeWeaponItemTag",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_MountTypeWeaponHolsterMelee_C",
+      "OuterIndex": -43,
+      "ClassPackage": "/Game/ConZ_Files/Items/Weapons/AttachmentSockets/BP_MountTypeWeaponHolsterMelee",
+      "ClassName": "BP_MountTypeWeaponHolsterMelee_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_TakeInHandsMelee2H_C",
+      "OuterIndex": -35,
+      "ClassPackage": "/Game/ConZ_Files/Data/TakeInHands/BP_TakeInHandsMelee2H",
+      "ClassName": "BP_TakeInHandsMelee2H_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Object",
+      "OuterIndex": -49,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlueprintGeneratedClass",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SceneComponent",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SCS_Node",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SimpleConstructionScript",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "StaticMeshComponent",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DamageOnUseTag",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ItemRootComponent",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MeleeAttackCollisionCapsule",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MeleeWeaponItemTag",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ThrowableItemTag",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ThrowingComponent",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "WeaponItem",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Blunt",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "CraftingItemTag",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__DamageOnUseTag",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "DamageOnUseTag",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "WeaponDesc_Table",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Detectable_Tag",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "DetectableTag",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DA_HandsCorrections_Grip_2H_Katana_01",
+      "OuterIndex": -65,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "HandsCorrectionsData",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DA_Generic_2H1_Melee_rework",
+      "OuterIndex": -34,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "ItemFirstPersonAnimationsDataAsset",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ItemOpenerTag",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "ItemOpenerTag",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TempSceneComponent",
+      "OuterIndex": -64,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "ItemRootComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__MeleeAttackCollisionCapsule",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "MeleeAttackCollisionCapsule",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Weapons_2H_Swords",
+      "OuterIndex": -66,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "MeleeSkillAnimationsPreset",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__MeleeWeaponItemTag",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "MeleeWeaponItemTag",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Data/HandsCorrections/DA_HandsCorrections_Grip_2H_Pitchfork",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Data/ItemFirstPersonAnimations/DA_Generic_2H1_Melee_rework",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Data/TakeInHands/BP_TakeInHandsMelee2H",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Data/Weapon/DA_Impact_Melee_Metal_Medium",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Data/WeaponDesc_Table",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Items/Tags/Crafting/ItemOpenerTag",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Items/Tags/Detecting/Detectable_Tag",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Items/Tags/Melee/Blade",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Items/Tags/Repair/SharpMeleeWeaponRepairable",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Items/Tags/Weapons/SharpMeleeWeapon",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Items/Weapons/AttachmentSockets/BP_MountTypeWeaponHolsterMelee",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Models/Objects/Items/Pitchfork_bent/SM_Pitchfork_bent",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Physical_Materials/Wood_01",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Skills/MeleeAnimationPresets/Weapons_2H_Swords",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/WwiseAudio/Event/DefaultWorkUnit/Player/Inventory_Handling_Knife",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/WwiseAudio/Event/DefaultWorkUnit/Player_Foley/Item_Metal_Broken",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/CoreUObject",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/GameplayTags",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/SCUM",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Wood_01",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/PhysicsCore",
+      "ClassName": "PhysicalMaterial",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DA_Impact_Melee_Metal_Medium",
+      "OuterIndex": -36,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "ProjectileImpactEffects",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SharpMeleeWeaponRepairable",
+      "OuterIndex": -41,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "RepairableItemTag",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SceneComponent",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GameplayTag",
+      "OuterIndex": -51,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SCS_Node",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SCS_Node",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SimpleConstructionScript",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SimpleConstructionScript",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SM_Pitchfork_bent",
+      "OuterIndex": -44,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ItemMesh0",
+      "OuterIndex": -64,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__ThrowableItemTag",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "ThrowableItemTag",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ThrowingComponent",
+      "OuterIndex": -64,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "ThrowingComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__WeaponItem",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/SCUM",
+      "ClassName": "WeaponItem",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Data/HandsCorrections/DA_HandsCorrections_Grip_2H_Katana_01",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/ConZ_Files/Skills/MeleeAnimationPresets/Weapons_2H_Swords",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 16,
+      "NameCount": 203
+    }
+  ],
+  "PackageGuid": "{9D9AE13C-4A08-5A54-E03A-0EBBACFAAAC6}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 2476767173,
+  "FolderName": "None",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "SavedHash": null,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 203,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "HasUnversionedProperties": false,
+  "IsFilterEditorOnly": true
+}
